@@ -1,4 +1,5 @@
 
+# kaggle competition: https://www.kaggle.com/starbucks/starbucks-menu
 import json
 import os
 
