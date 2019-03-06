@@ -16,4 +16,4 @@ services:
       - '8000:9999'
     depends_on: 
       - nlu
-      - menu_service
+      - menu
