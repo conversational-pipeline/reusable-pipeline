@@ -6,3 +6,4 @@ documents
 .mypy_cache/
 venv
 env
+.vscode
