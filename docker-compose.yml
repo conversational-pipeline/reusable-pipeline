@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nlu:
+    image: nlu
+    build: ./nlu
+    env_file:
+      - .env
+    ports:
+      - '80:9999'
+  bot:
+    image: bot
+    build: ./bot
+    env_file:
+      - .env
+    ports:
+      - '8000:9999'
+    depends_on: 
+      - nlu
+      - menu_service

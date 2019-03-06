@@ -1,0 +1,8 @@
+node_modules
+dist
+documents
+.env
+*.env
+.mypy_cache/
+venv
+env
