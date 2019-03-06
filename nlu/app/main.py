@@ -50,10 +50,11 @@ def predict(model, pred_utterance, max_utterance_length, word2idx, tag2idx, grou
                 groups.append(idx2group[group_pred])
         return words, tokens, groups
 
-@app.route('/')
-def hello_world():
-    words, tokens, groups = predict(model, 'i want coffee instead of lemonade', max_utterance_length, word2idx, tag2idx, groups2idx)
+@app.route('/<utterance>')
+def hello_world(utterance):
+    words, tokens, groups = predict(model, utterance, max_utterance_length, word2idx, tag2idx, groups2idx)
     result = {
+        'utterance': utterance,
         'words': words,
         'tokens': tokens,
         'groups': groups
