@@ -1,0 +1,22 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean-dist": "rm -rf dist",
+    "build": "npm run clean-dist && tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder": "^4.3.2",
+    "dotenv": "^6.2.0",
+    "node-fetch": "^2.3.0",
+    "restify": "^8.1.0",
+    "wolf-botbuilder": "1.0.0-alpha.10",
+    "wolf-core": "3.0.0-alpha.14"
+  }
+}
