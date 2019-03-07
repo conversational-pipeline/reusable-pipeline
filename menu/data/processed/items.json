@@ -1,0 +1,3278 @@
+[
+ {
+  "id": "product-cool-lime-starbucks-refreshers-beverage",
+  "displayName": "Cool Lime Starbucks Refreshers Beverage",
+  "commonNames": [
+   "Cool Lime Refreshers Beverage"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-ombre-pink-drink",
+  "displayName": "Ombre Pink Drink",
+  "commonNames": [
+   "Ombre Pink Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-pink-drink",
+  "displayName": "Pink Drink",
+  "commonNames": [
+   "Pink Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-strawberry-acai-starbucks-refresher-beverage",
+  "displayName": "Strawberry Acai Starbucks Refresher Beverage",
+  "commonNames": [
+   "Strawberry Acai Refresher Beverage"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-very-berry-hibiscus-starbucks-refreshers-beverage",
+  "displayName": "Very Berry Hibiscus Starbucks Refreshers Beverage",
+  "commonNames": [
+   "Very Berry Hibiscus Refreshers Beverage"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-violet-drink",
+  "displayName": "Violet Drink",
+  "commonNames": [
+   "Violet Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-evolution-fresh-cold-pressed-apple-berry-juice",
+  "displayName": "Evolution Fresh Cold Pressed Apple Berry Juice",
+  "commonNames": [
+   "Evolution Fresh Cold Pressed Apple Berry Juice"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-evolution-fresh-defense-up",
+  "displayName": "Evolution Fresh Defense Up",
+  "commonNames": [
+   "Evolution Fresh Defense Up"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-evolution-fresh-organic-ginger-limeade",
+  "displayName": "Evolution Fresh Organic Ginger Limeade",
+  "commonNames": [
+   "Evolution Fresh Organic Ginger Limeade"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-coffee",
+  "displayName": "Iced Coffee",
+  "commonNames": [
+   "Iced Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-coffee-with-milk",
+  "displayName": "Iced Coffee with Milk",
+  "commonNames": [
+   "Iced Coffee with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-espresso-classics-vanilla-latte",
+  "displayName": "Iced Espresso Classics - Vanilla Latte",
+  "commonNames": [
+   "Iced Vanilla Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-espresso-classics-caffe-mocha",
+  "displayName": "Iced Espresso Classics - Caffe Mocha",
+  "commonNames": [
+   "Iced Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-espresso-classics-caramel-macchiato",
+  "displayName": "Iced Espresso Classics - Caramel Macchiato",
+  "commonNames": [
+   "Iced Caramel Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-espresso-classics-skinny-caramel-macchiato",
+  "displayName": "Iced Espresso Classics - Skinny Caramel Macchiato",
+  "commonNames": [
+   "Iced Skinny Caramel Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-espresso-classics-skinny-vanilla-latte",
+  "displayName": "Iced Espresso Classics - Skinny Vanilla Latte",
+  "commonNames": [
+   "Iced Skinny Vanilla Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-caramel-iced-coffee",
+  "displayName": "Starbucks Caramel Iced Coffee",
+  "commonNames": [
+   "Caramel Iced Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-iced-coffee-plus-milk",
+  "displayName": "Starbucks Iced Coffee plus Milk",
+  "commonNames": [
+   "Iced Coffee with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-low-calorie-iced-coffee-plus-milk",
+  "displayName": "Starbucks Low Calorie Iced Coffee plus Milk",
+  "commonNames": [
+   "Low Calorie Iced Coffee with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-vanilla-iced-coffee",
+  "displayName": "Starbucks Vanilla Iced Coffee",
+  "commonNames": [
+   "Vanilla Iced Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-shaken-sweet-tea",
+  "displayName": "Shaken Sweet Tea",
+  "commonNames": [
+   "Shaken Sweet Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-black-tea",
+  "displayName": "Teavana Shaken Iced Black Tea",
+  "commonNames": [
+   "Shaken Iced Black Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-black-tea-lemonade",
+  "displayName": "Teavana Shaken Iced Black Tea Lemonade",
+  "commonNames": [
+   "Shaken Iced Black Tea Lemonade"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-green-tea",
+  "displayName": "Teavana Shaken Iced Green Tea",
+  "commonNames": [
+   "Shaken Iced Green Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-green-tea-lemonade",
+  "displayName": "Teavana Shaken Iced Green Tea Lemonade",
+  "commonNames": [
+   "Shaken Iced Green Tea Lemonade"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-passion-tango-tea",
+  "displayName": "Teavana Shaken Iced Passion Tango Tea",
+  "commonNames": [
+   "Shaken Iced Passion Tango Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-passion-tango-tea-lemonade",
+  "displayName": "Teavana Shaken Iced Passion Tango Tea Lemonade",
+  "commonNames": [
+   "Shaken Iced Passion Tango Tea Lemonade"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-shaken-iced-peach-green-tea",
+  "displayName": "Teavana Shaken Iced Peach Green Tea",
+  "commonNames": [
+   "Shaken Iced Peach Green Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-mango-black-tea",
+  "displayName": "Teavana Mango Black Tea",
+  "commonNames": [
+   "Mango Black Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-passion-tango-herbal-tea",
+  "displayName": "Teavana Passion Tango Herbal Tea",
+  "commonNames": [
+   "Passion Tango Herbal Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-teavana-peach-green-tea",
+  "displayName": "Teavana Peach Green Tea",
+  "commonNames": [
+   "Peach Green Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-energy-coffee-drink",
+  "displayName": "Starbucks Doubleshot Energy Coffee Drink",
+  "commonNames": [
+   "Doubleshot Energy Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-energy-mexican-mocha",
+  "displayName": "Starbucks Doubleshot Energy Mexican Mocha",
+  "commonNames": [
+   "Doubleshot Energy Mexican Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-energy-mocha-drink",
+  "displayName": "Starbucks Doubleshot Energy Mocha Drink",
+  "commonNames": [
+   "Doubleshot Energy Mocha Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-energy-vanilla-drink",
+  "displayName": "Starbucks Doubleshot Energy Vanilla Drink",
+  "commonNames": [
+   "Doubleshot Energy Vanilla Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-energy-white-chocolate-drink",
+  "displayName": "Starbucks Doubleshot Energy White Chocolate Drink",
+  "commonNames": [
+   "Doubleshot Energy White Chocolate Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-energy-plus-cinnamon-dolce-drink",
+  "displayName": "Starbucks Doubleshot Energy plus Cinnamon Dolce Drink",
+  "commonNames": [
+   "Doubleshot Energy with Cinnamon Dolce Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-espresso-cubano",
+  "displayName": "Starbucks Doubleshot Espresso Cubano",
+  "commonNames": [
+   "Doubleshot Espresso Cubano"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-espresso-drink",
+  "displayName": "Starbucks Doubleshot Espresso Drink",
+  "commonNames": [
+   "Doubleshot Espresso Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-espresso-salted-caramel-cream",
+  "displayName": "Starbucks Doubleshot Espresso Salted Caramel Cream",
+  "commonNames": [
+   "Doubleshot Espresso Salted Caramel Cream"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-light-espresso-drink",
+  "displayName": "Starbucks Doubleshot Light Espresso Drink",
+  "commonNames": [
+   "Doubleshot Light Espresso Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-protein-caramel",
+  "displayName": "Starbucks Doubleshot Protein Caramel",
+  "commonNames": [
+   "Doubleshot Protein Caramel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-protein-dark-chocolate",
+  "displayName": "Starbucks Doubleshot Protein Dark Chocolate",
+  "commonNames": [
+   "Doubleshot Protein Dark Chocolate"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-protein-vanilla",
+  "displayName": "Starbucks Doubleshot Protein Vanilla",
+  "commonNames": [
+   "Doubleshot Protein Vanilla"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-refreshers-raspberry-pomegranate",
+  "displayName": "Starbucks Refreshers Raspberry Pomegranate",
+  "commonNames": [
+   "Refreshers Raspberry Pomegranate"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-refreshers-strawberry-lemonade",
+  "displayName": "Starbucks Refreshers Strawberry Lemonade",
+  "commonNames": [
+   "Refreshers Strawberry Lemonade"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-refreshers-black-cherry-limeade-with-coconut-water",
+  "displayName": "Starbucks Refreshers Black Cherry Limeade with Coconut Water",
+  "commonNames": [
+   "Refreshers Black Cherry Limeade with Coconut Water"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-caramel-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Caramel Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Caramel Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-coffee-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Coffee Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Coffee Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-cold-brew-black-unsweetened",
+  "displayName": "Starbucks Bottled Cold Brew Black Unsweetened",
+  "commonNames": [
+   "Bottled Cold Brew Black Unsweetened"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-cold-brew-cocoa-and-honey-with-cream",
+  "displayName": "Starbucks Bottled Cold Brew Cocoa and Honey with Cream",
+  "commonNames": [
+   "Bottled Cold Brew Cocoa and Honey with Cream"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-dulce-de-leche-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Dulce de Leche Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Dulce de Leche Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-mocha-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Mocha Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Mocha Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-mocha-light-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Mocha Light Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Mocha Light Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-smores-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Smores Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Smores Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-vanilla-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Vanilla Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Vanilla Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-bottled-vanilla-light-frappuccino-coffee-drink",
+  "displayName": "Starbucks Bottled Vanilla Light Frappuccino Coffee Drink",
+  "commonNames": [
+   "Bottled Vanilla Light Frappuccino Coffee Drink"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-caramel-iced-coffee",
+  "displayName": "Starbucks Caramel Iced Coffee",
+  "commonNames": [
+   "Caramel Iced Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-iced-coffee-plus-milk",
+  "displayName": "Starbucks Iced Coffee plus Milk",
+  "commonNames": [
+   "Iced Coffee with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-iced-coffee-caramel",
+  "displayName": "Starbucks Iced Coffee Caramel",
+  "commonNames": [
+   "Iced Coffee Caramel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-iced-coffee-light-sweetened",
+  "displayName": "Starbucks Iced Coffee Light Sweetened",
+  "commonNames": [
+   "Iced Coffee Light Sweetened"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-iced-coffee-unsweetened",
+  "displayName": "Starbucks Iced Coffee Unsweetened",
+  "commonNames": [
+   "Iced Coffee Unsweetened"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-low-calorie-iced-coffee-plus-milk",
+  "displayName": "Starbucks Low Calorie Iced Coffee plus Milk",
+  "commonNames": [
+   "Low Calorie Iced Coffee with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-vanilla-iced-coffee",
+  "displayName": "Starbucks Vanilla Iced Coffee",
+  "commonNames": [
+   "Vanilla Iced Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-berry-blossom-white",
+  "displayName": "Tazo Bottled Berry Blossom White",
+  "commonNames": [
+   "Bottled Berry Blossom White"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-black-mango",
+  "displayName": "Tazo Bottled Black Mango",
+  "commonNames": [
+   "Bottled Black Mango"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-black-with-lemon",
+  "displayName": "Tazo Bottled Black with Lemon",
+  "commonNames": [
+   "Bottled Black with Lemon"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-brambleberry",
+  "displayName": "Tazo Bottled Brambleberry",
+  "commonNames": [
+   "Bottled Brambleberry"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-giant-peach",
+  "displayName": "Tazo Bottled Giant Peach",
+  "commonNames": [
+   "Bottled Giant Peach"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-iced-passion",
+  "displayName": "Tazo Bottled Iced Passion",
+  "commonNames": [
+   "Bottled Iced Passion"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-lemon-ginger",
+  "displayName": "Tazo Bottled Lemon Ginger",
+  "commonNames": [
+   "Bottled Lemon Ginger"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-organic-black-lemonade",
+  "displayName": "Tazo Bottled Organic Black Lemonade",
+  "commonNames": [
+   "Bottled Organic Black Lemonade"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-organic-iced-black-tea",
+  "displayName": "Tazo Bottled Organic Iced Black Tea",
+  "commonNames": [
+   "Bottled Organic Iced Black Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-organic-iced-green-tea",
+  "displayName": "Tazo Bottled Organic Iced Green Tea",
+  "commonNames": [
+   "Bottled Organic Iced Green Tea"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-plum-pomegranate",
+  "displayName": "Tazo Bottled Plum Pomegranate",
+  "commonNames": [
+   "Bottled Plum Pomegranate"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-tazoberry",
+  "displayName": "Tazo Bottled Tazoberry",
+  "commonNames": [
+   "Bottled Tazoberry"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-tazo-bottled-white-cranberry",
+  "displayName": "Tazo Bottled White Cranberry",
+  "commonNames": [
+   "Bottled White Cranberry"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-white-chocolate-mocha-bottled-frappuccino",
+  "displayName": "White Chocolate Mocha Bottled Frappuccino",
+  "commonNames": [
+   "White Chocolate Mocha Bottled Frappuccino"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-blonde-roast",
+  "displayName": "Blonde Roast",
+  "commonNames": [
+   "Blonde Roast"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caffe-misto",
+  "displayName": "Caffe Misto",
+  "commonNames": [
+   "Misto"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-clover-brewed-coffee",
+  "displayName": "Clover Brewed Coffee",
+  "commonNames": [
+   "Clover Brewed Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-coffee-traveler",
+  "displayName": "Coffee Traveler",
+  "commonNames": [
+   "Coffee Traveler"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-decaf-pike-place-roast",
+  "displayName": "Decaf Pike Place Roast",
+  "commonNames": [
+   "Decaf Pike Place Roast"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-featured-dark-roast",
+  "displayName": "Featured Dark Roast",
+  "commonNames": [
+   "Featured Dark Roast"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-coffee",
+  "displayName": "Iced Coffee",
+  "commonNames": [
+   "Iced Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-coffee-with-milk",
+  "displayName": "Iced Coffee with Milk",
+  "commonNames": [
+   "Iced Coffee with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-narino-70-cold-brew",
+  "displayName": "Narino 70 Cold Brew",
+  "commonNames": [
+   "Narino 70 Cold Brew"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-narino-70-cold-brew-with-milk",
+  "displayName": "Narino 70 Cold Brew with Milk",
+  "commonNames": [
+   "Narino 70 Cold Brew with Milk"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-nitro-cold-brew",
+  "displayName": "Nitro Cold Brew",
+  "commonNames": [
+   "Nitro Cold Brew"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-nitro-cold-brew-with-sweet-cream",
+  "displayName": "Nitro Cold Brew with Sweet Cream",
+  "commonNames": [
+   "Nitro Cold Brew with Sweet Cream"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-pike-place-roast",
+  "displayName": "Pike Place Roast",
+  "commonNames": [
+   "Pike Place Roast"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-toasted-coconut-cold-brew",
+  "displayName": "Toasted Coconut Cold Brew",
+  "commonNames": [
+   "Toasted Coconut Cold Brew"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-vanilla-sweet-cream-cold-brew",
+  "displayName": "Vanilla Sweet Cream Cold Brew",
+  "commonNames": [
+   "Vanilla Sweet Cream Cold Brew"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-hot-chocolate",
+  "displayName": "Hot Chocolate",
+  "commonNames": [
+   "Hot Chocolate"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-signature-hot-chocolate",
+  "displayName": "Starbucks Signature Hot Chocolate",
+  "commonNames": [
+   "Signature Hot Chocolate"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caffe-americano",
+  "displayName": "Caffe Americano",
+  "commonNames": [
+   "Americano"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caffe-latte",
+  "displayName": "Caffe Latte",
+  "commonNames": [
+   "Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caffe-mocha",
+  "displayName": "Caffe Mocha",
+  "commonNames": [
+   "Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cappuccino",
+  "displayName": "Cappuccino",
+  "commonNames": [
+   "Cappuccino"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caramel-macchiato",
+  "displayName": "Caramel Macchiato",
+  "commonNames": [
+   "Caramel Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cascara-coconut-milk-latte",
+  "displayName": "Cascara Coconut milk Latte",
+  "commonNames": [
+   "Cascara Coconut milk Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-dolce-latte",
+  "displayName": "Cinnamon Dolce Latte",
+  "commonNames": [
+   "Cinnamon Dolce Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-coconut-milk-mocha-macchiato",
+  "displayName": "Coconut Milk Mocha Macchiato",
+  "commonNames": [
+   "Coconut Milk Mocha Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-espresso",
+  "displayName": "Espresso",
+  "commonNames": [
+   "Espresso"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-espresso-con-panna",
+  "displayName": "Espresso Con Panna",
+  "commonNames": [
+   "Espresso Con Panna"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-espresso-macchiato",
+  "displayName": "Espresso Macchiato",
+  "commonNames": [
+   "Espresso Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-flat-white",
+  "displayName": "Flat White",
+  "commonNames": [
+   "Flat White"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-caffe-americano",
+  "displayName": "Iced Caffe Americano",
+  "commonNames": [
+   "Iced Americano"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-caffe-latte",
+  "displayName": "Iced Caffe Latte",
+  "commonNames": [
+   "Iced Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-caffe-mocha",
+  "displayName": "Iced Caffe Mocha",
+  "commonNames": [
+   "Iced Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-caramel-macchiato",
+  "displayName": "Iced Caramel Macchiato",
+  "commonNames": [
+   "Iced Caramel Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-cascara-coconut-milk-latte",
+  "displayName": "Iced Cascara Coconut Milk Latte",
+  "commonNames": [
+   "Iced Cascara Coconut Milk Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-cinnamon-dolce-latte",
+  "displayName": "Iced Cinnamon Dolce Latte",
+  "commonNames": [
+   "Iced Cinnamon Dolce Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-coconut-milk-mocha-macchiato",
+  "displayName": "Iced Coconut Milk Mocha Macchiato",
+  "commonNames": [
+   "Iced Coconut Milk Mocha Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-skinny-cinnamon-dolce-latte",
+  "displayName": "Iced Skinny Cinnamon Dolce Latte",
+  "commonNames": [
+   "Iced Skinny Cinnamon Dolce Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-skinny-mocha",
+  "displayName": "Iced Skinny Mocha",
+  "commonNames": [
+   "Iced Skinny Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-vanilla-latte",
+  "displayName": "Iced Vanilla Latte",
+  "commonNames": [
+   "Iced Vanilla Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-white-chocolate-mocha",
+  "displayName": "Iced White Chocolate Mocha",
+  "commonNames": [
+   "Iced White Chocolate Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-latte-macchiato",
+  "displayName": "Latte Macchiato",
+  "commonNames": [
+   "Latte Macchiato"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-skinny-mocha",
+  "displayName": "Skinny Mocha",
+  "commonNames": [
+   "Skinny Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-starbucks-doubleshot-on-ice-beverage",
+  "displayName": "Starbucks Doubleshot on Ice Beverage",
+  "commonNames": [
+   "Doubleshot on Ice Beverage"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-vanilla-latte",
+  "displayName": "Vanilla Latte",
+  "commonNames": [
+   "Vanilla Latte"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-white-chocolate-mocha",
+  "displayName": "White Chocolate Mocha",
+  "commonNames": [
+   "White Chocolate Mocha"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caffe-vanilla-frappuccino-blended-coffee",
+  "displayName": "Caffe Vanilla Frappuccino Blended Coffee",
+  "commonNames": [
+   "Vanilla Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caffe-vanilla-light-frappuccino-blended-coffee",
+  "displayName": "Caffe Vanilla Light Frappuccino Blended Coffee",
+  "commonNames": [
+   "Vanilla Light Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caramel-cocoa-cluster-frappuccino-blended-coffee",
+  "displayName": "Caramel Cocoa Cluster Frappuccino Blended Coffee",
+  "commonNames": [
+   "Caramel Cocoa Cluster Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caramel-frappuccino-blended-coffee",
+  "displayName": "Caramel Frappuccino Blended Coffee",
+  "commonNames": [
+   "Caramel Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-caramel-light-frappuccino-blended-coffee",
+  "displayName": "Caramel Light Frappuccino Blended Coffee",
+  "commonNames": [
+   "Caramel Light Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chai-creme-frappuccino-blended-creme",
+  "displayName": "Chai Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Chai Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-dolce-frappuccino-blended-coffee",
+  "displayName": "Cinnamon Dolce Frappuccino Blended Coffee",
+  "commonNames": [
+   "Cinnamon Dolce Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-dolce-light-frappuccino-blended-coffee",
+  "displayName": "Cinnamon Dolce Light Frappuccino Blended Coffee",
+  "commonNames": [
+   "Cinnamon Dolce Light Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-roll-frappuccino-blended-coffee",
+  "displayName": "Cinnamon Roll Frappuccino Blended Coffee",
+  "commonNames": [
+   "Cinnamon Roll Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-coffee-frappuccino-blended-coffee",
+  "displayName": "Coffee Frappuccino Blended Coffee",
+  "commonNames": [
+   "Coffee Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-coffee-light-frappuccino-blended-coffee",
+  "displayName": "Coffee Light Frappuccino Blended Coffee",
+  "commonNames": [
+   "Coffee Light Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cupcake-creme-frappuccino-blended-creme",
+  "displayName": "Cupcake Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Cupcake Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-green-tea-creme-frappuccino-blended-creme",
+  "displayName": "Green Tea Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Green Tea Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-java-chip-frappuccino-blended-coffee",
+  "displayName": "Java Chip Frappuccino Blended Coffee",
+  "commonNames": [
+   "Java Chip Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-java-chip-light-frappuccino-blended-coffee",
+  "displayName": "Java Chip Light Frappuccino Blended Coffee",
+  "commonNames": [
+   "Java Chip Light Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-lemon-bar-creme-frappuccino-blended-creme",
+  "displayName": "Lemon Bar Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Lemon Bar Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-midnight-mint-mocha-frappuccino-blended-coffee",
+  "displayName": "Midnight Mint Mocha Frappuccino Blended Coffee",
+  "commonNames": [
+   "Midnight Mint Mocha Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-midnight-mint-mocha-frappuccino-blended-creme",
+  "displayName": "Midnight Mint Mocha Frappuccino Blended Creme",
+  "commonNames": [
+   "Midnight Mint Mocha Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-mocha-frappuccino-blended-coffee",
+  "displayName": "Mocha Frappuccino Blended Coffee",
+  "commonNames": [
+   "Mocha Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-mocha-light-frappuccino-blended-coffee",
+  "displayName": "Mocha Light Frappuccino Blended Coffee",
+  "commonNames": [
+   "Mocha Light Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-oprah-cinnamon-chai-creme-frappuccino-blended-creme",
+  "displayName": "Oprah Cinnamon Chai Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Oprah Cinnamon Chai Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-red-velvet-cake-creme-frappuccino-blended-creme",
+  "displayName": "Red Velvet Cake Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Red Velvet Cake Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-smores-frappuccino-blended-coffee",
+  "displayName": "Smores Frappuccino Blended Coffee",
+  "commonNames": [
+   "Smores Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-smores-frappuccino-blended-creme",
+  "displayName": "Smores Frappuccino Blended Creme",
+  "commonNames": [
+   "Smores Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-strawberries-and-creme-frappuccino-blended-creme",
+  "displayName": "Strawberries and Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Strawberries and Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-the-pokemon-go-frappuccino-blended-beverage",
+  "displayName": "The Pokemon GO Frappuccino Blended Beverage",
+  "commonNames": [
+   "The Pokemon GO Frappuccino Blended Beverage"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-vanilla-bean-creme-frappuccino-blended-creme",
+  "displayName": "Vanilla Bean Creme Frappuccino Blended Creme",
+  "commonNames": [
+   "Vanilla Bean Creme Frappuccino Blended Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-white-chocolate-mocha-frappuccino-blended-coffee",
+  "displayName": "White Chocolate Mocha Frappuccino Blended Coffee",
+  "commonNames": [
+   "White Chocolate Mocha Frappuccino Blended Coffee"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-dolce-creme",
+  "displayName": "Cinnamon Dolce Creme",
+  "commonNames": [
+   "Cinnamon Dolce Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-organic-chocolate-milk-box",
+  "displayName": "Organic Chocolate Milk Box",
+  "commonNames": [
+   "Organic Chocolate Milk Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-steamed-apple-juice",
+  "displayName": "Steamed Apple Juice",
+  "commonNames": [
+   "Steamed Apple Juice"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-vanilla-creme",
+  "displayName": "Vanilla Creme",
+  "commonNames": [
+   "Vanilla Creme"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-smoothie",
+  "displayName": "Chocolate Smoothie",
+  "commonNames": [
+   "Chocolate Smoothie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-strawberry-smoothie",
+  "displayName": "Strawberry Smoothie",
+  "commonNames": [
+   "Strawberry Smoothie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-ginger-ale",
+  "displayName": "Ginger Ale",
+  "commonNames": [
+   "Ginger Ale"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-lemon-ale",
+  "displayName": "Lemon Ale",
+  "commonNames": [
+   "Lemon Ale"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-orange-cream-soda",
+  "displayName": "Orange Cream Soda",
+  "commonNames": [
+   "Orange Cream Soda"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chonga-bagel",
+  "displayName": "Chonga Bagel",
+  "commonNames": [
+   "Chonga Bagel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-8-grain-roll",
+  "displayName": "8 Grain Roll",
+  "commonNames": [
+   "8 Grain Roll"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-almond-croissant",
+  "displayName": "Almond Croissant",
+  "commonNames": [
+   "Almond Croissant"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-apple-fritter",
+  "displayName": "Apple Fritter",
+  "commonNames": [
+   "Apple Fritter"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-banana-nut-bread",
+  "displayName": "Banana Nut Bread",
+  "commonNames": [
+   "Banana Nut Bread"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-blueberry-muffin-with-yogurt-and-honey",
+  "displayName": "Blueberry Muffin with Yogurt and Honey",
+  "commonNames": [
+   "Blueberry Muffin with Yogurt and Honey"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-blueberry-scone",
+  "displayName": "Blueberry Scone",
+  "commonNames": [
+   "Blueberry Scone"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-butter-croissant",
+  "displayName": "Butter Croissant",
+  "commonNames": [
+   "Butter Croissant"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-butterfly-cookie",
+  "displayName": "Butterfly Cookie",
+  "commonNames": [
+   "Butterfly Cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cheese-danish",
+  "displayName": "Cheese Danish",
+  "commonNames": [
+   "Cheese Danish"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chewy-chocolate-cookie",
+  "displayName": "Chewy Chocolate Cookie",
+  "commonNames": [
+   "Chewy Chocolate Cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-chip-cookie",
+  "displayName": "Chocolate Chip Cookie",
+  "commonNames": [
+   "Chocolate Chip Cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-chunk-muffin",
+  "displayName": "Chocolate Chunk Muffin",
+  "commonNames": [
+   "Chocolate Chunk Muffin"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-croissant",
+  "displayName": "Chocolate Croissant",
+  "commonNames": [
+   "Chocolate Croissant"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-hazelnut-croissant",
+  "displayName": "Chocolate Hazelnut Croissant",
+  "commonNames": [
+   "Chocolate Hazelnut Croissant"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-marble-loaf-cake",
+  "displayName": "Chocolate Marble Loaf Cake",
+  "commonNames": [
+   "Chocolate Marble Loaf Cake"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-morning-bun",
+  "displayName": "Cinnamon Morning Bun",
+  "commonNames": [
+   "Cinnamon Morning Bun"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cinnamon-raisin-bagel",
+  "displayName": "Cinnamon Raisin Bagel",
+  "commonNames": [
+   "Cinnamon Raisin Bagel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-classic-coffee-cake",
+  "displayName": "Classic Coffee Cake",
+  "commonNames": [
+   "Classic Coffee Cake"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cookie-butter-bar",
+  "displayName": "Cookie Butter Bar",
+  "commonNames": [
+   "Cookie Butter Bar"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cranberry-orange-scone",
+  "displayName": "Cranberry Orange Scone",
+  "commonNames": [
+   "Cranberry Orange Scone"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-devils-food-doughnut",
+  "displayName": "Devil's Food Doughnut",
+  "commonNames": [
+   "Devil's Food Doughnut"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-double-chocolate-brownie",
+  "displayName": "Double Chocolate Brownie",
+  "commonNames": [
+   "Double Chocolate Brownie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-double-chocolate-chunk-brownie",
+  "displayName": "Double Chocolate Chunk Brownie",
+  "commonNames": [
+   "Double Chocolate Chunk Brownie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-double-chocolate-loaf-cake",
+  "displayName": "Double Chocolate Loaf Cake",
+  "commonNames": [
+   "Double Chocolate Loaf Cake"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-everybodys-favorite-bantam-bagel-2-pack",
+  "displayName": "Everybody's Favorite Bantam Bagel (2 Pack)",
+  "commonNames": [
+   "Everybody's Favorite Bantam Bagel (2 Pack)"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-everything-bagel-with-cheese",
+  "displayName": "Everything Bagel with Cheese",
+  "commonNames": [
+   "Everything Bagel with Cheese"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-frappuccino-cookie-straw",
+  "displayName": "Frappuccino Cookie Straw",
+  "commonNames": [
+   "Frappuccino Cookie Straw"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-french-toast-bantam-bagels-2-pack",
+  "displayName": "French Toast Bantam Bagels (2 Pack)",
+  "commonNames": [
+   "French Toast Bantam Bagels (2 Pack)"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-gluten-free-marshmallow-dream-bar",
+  "displayName": "Gluten Free Marshmallow Dream Bar",
+  "commonNames": [
+   "Gluten Free Marshmallow Dream Bar"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-ice-cream-cone-sugar-cookie",
+  "displayName": "Ice Cream Cone Sugar Cookie",
+  "commonNames": [
+   "Ice Cream Cone Sugar Cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-iced-lemon-pound-cake",
+  "displayName": "Iced Lemon Pound Cake",
+  "commonNames": [
+   "Iced Lemon Pound Cake"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-michigan-cherry-oat-bar",
+  "displayName": "Michigan Cherry Oat Bar",
+  "commonNames": [
+   "Michigan Cherry Oat Bar"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-multigrain-bagel",
+  "displayName": "Multigrain Bagel",
+  "commonNames": [
+   "Multigrain Bagel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-oatmeal-cookie",
+  "displayName": "Oatmeal Cookie",
+  "commonNames": [
+   "Oatmeal Cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-octopus-cookie",
+  "displayName": "Octopus Cookie",
+  "commonNames": [
+   "Octopus Cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-old-fashioned-glazed-doughnut",
+  "displayName": "Old Fashioned Glazed Doughnut",
+  "commonNames": [
+   "Old Fashioned Glazed Doughnut"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-peanut-butter-cup-cookie",
+  "displayName": "Peanut butter cup cookie",
+  "commonNames": [
+   "Peanut butter cup cookie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-pecan-tart",
+  "displayName": "Pecan Tart",
+  "commonNames": [
+   "Pecan Tart"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-petite-vanilla-bean-scone",
+  "displayName": "Petite Vanilla Bean Scone",
+  "commonNames": [
+   "Petite Vanilla Bean Scone"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-plain-bagel",
+  "displayName": "Plain Bagel",
+  "commonNames": [
+   "Plain Bagel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-pumpkin-bread",
+  "displayName": "Pumpkin Bread",
+  "commonNames": [
+   "Pumpkin Bread"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-raspberry-swirl-loaf-cake",
+  "displayName": "Raspberry Swirl Loaf Cake",
+  "commonNames": [
+   "Raspberry Swirl Loaf Cake"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-raspberry-whoopie-pie",
+  "displayName": "Raspberry Whoopie Pie",
+  "commonNames": [
+   "Raspberry Whoopie Pie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-reduced-fat-cinnamon-swirl-coffee-cake",
+  "displayName": "Reduced Fat Cinnamon Swirl Coffee Cake",
+  "commonNames": [
+   "Reduced Fat Cinnamon Swirl Coffee Cake"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-smores-bar",
+  "displayName": "Smores Bar",
+  "commonNames": [
+   "Smores Bar"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-smores-bar-multipack",
+  "displayName": "Smores Bar Multipack",
+  "commonNames": [
+   "Smores Bar Multipack"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-sprouted-grain-vegan-bagel",
+  "displayName": "Sprouted Grain Vegan Bagel",
+  "commonNames": [
+   "Sprouted Grain Vegan Bagel"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-strawberry-cake-pop",
+  "displayName": "Strawberry Cake Pop",
+  "commonNames": [
+   "Strawberry Cake Pop"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-the-classic-bantam-bagels-2-pack",
+  "displayName": "The Classic Bantam Bagels (2 Pack)",
+  "commonNames": [
+   "The Classic Bantam Bagels (2 Pack)"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-toffeedoodle",
+  "displayName": "Toffeedoodle",
+  "commonNames": [
+   "Toffeedoodle"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-vanilla-bean-whoopie-pie",
+  "displayName": "Vanilla Bean Whoopie Pie",
+  "commonNames": [
+   "Vanilla Bean Whoopie Pie"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-vermont-maple-walnut-muffin",
+  "displayName": "Vermont Maple Walnut Muffin",
+  "commonNames": [
+   "Vermont Maple Walnut Muffin"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-volpi-pepperoni-and-tomato-savory-foldover",
+  "displayName": "Volpi Pepperoni and Tomato Savory Foldover",
+  "commonNames": [
+   "Volpi Pepperoni and Tomato Savory Foldover"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-strawberries-and-jam-sandwich",
+  "displayName": "Strawberries and Jam Sandwich",
+  "commonNames": [
+   "Strawberries and Jam Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-burrata-and-basil-pesto-small-sandwich",
+  "displayName": "Burrata and Basil Pesto Small Sandwich",
+  "commonNames": [
+   "Burrata and Basil Pesto Small Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cage-free-eggs-and-seasoned-grains-side-salad",
+  "displayName": "Cage Free Eggs and Seasoned Grains Side Salad",
+  "commonNames": [
+   "Cage Free Eggs and Seasoned Grains Side Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cauliflower-tabbouleh-side-salad",
+  "displayName": "Cauliflower Tabbouleh Side Salad",
+  "commonNames": [
+   "Cauliflower Tabbouleh Side Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cubano-sandwich",
+  "displayName": "Cubano Sandwich",
+  "commonNames": [
+   "Cubano Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-farmers-market-protein-box",
+  "displayName": "Farmers Market Protein Box",
+  "commonNames": [
+   "Farmers Market Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-garden-greens-and-shaved-parmesan-side-salad",
+  "displayName": "Garden Greens and Shaved Parmesan Side Salad",
+  "commonNames": [
+   "Garden Greens and Shaved Parmesan Side Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-green-goddess-avocado-salad",
+  "displayName": "Green Goddess Avocado Salad",
+  "commonNames": [
+   "Green Goddess Avocado Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-herbed-chicken-and-fig-spread-small-sandwich",
+  "displayName": "Herbed Chicken and Fig Spread Small Sandwich",
+  "commonNames": [
+   "Herbed Chicken and Fig Spread Small Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-honey-bbq-sriracha-chicken-sandwich",
+  "displayName": "Honey BBQ Sriracha Chicken Sandwich",
+  "commonNames": [
+   "Honey BBQ Sriracha Chicken Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-roasted-carrot-and-kale-side-salad",
+  "displayName": "Roasted Carrot and Kale Side Salad",
+  "commonNames": [
+   "Roasted Carrot and Kale Side Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-roasted-turkey-and-dill-havarti-sandwich",
+  "displayName": "Roasted Turkey and Dill Havarti Sandwich",
+  "commonNames": [
+   "Roasted Turkey and Dill Havarti Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-seared-steak-and-cheddar-sandwich",
+  "displayName": "Seared Steak and Cheddar Sandwich",
+  "commonNames": [
+   "Seared Steak and Cheddar Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-slow-roasted-ham-and-beechers-flagship-cheese-small-sandwich",
+  "displayName": "Slow Roasted Ham and Beecher's Flagship Cheese Small Sandwich",
+  "commonNames": [
+   "Slow Roasted Ham and Beecher's Flagship Cheese Small Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-smoked-mozzarella-and-roasted-pepper-sandwich",
+  "displayName": "Smoked Mozzarella and Roasted Pepper Sandwich",
+  "commonNames": [
+   "Smoked Mozzarella and Roasted Pepper Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-turkey-and-fire-roasted-corn-salad",
+  "displayName": "Turkey and Fire Roasted Corn Salad",
+  "commonNames": [
+   "Turkey and Fire Roasted Corn Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-zaatar-chicken-and-lemon-tahini-salad",
+  "displayName": "Zaatar Chicken and Lemon Tahini Salad",
+  "commonNames": [
+   "Zaatar Chicken and Lemon Tahini Salad"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-bbq-chicken-protein-box",
+  "displayName": "BBQ Chicken Protein Box",
+  "commonNames": [
+   "BBQ Chicken Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-cheese-and-fruit-protein-box",
+  "displayName": "Cheese and Fruit Protein Box",
+  "commonNames": [
+   "Cheese and Fruit Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chicken-wrap-protein-box",
+  "displayName": "Chicken Wrap Protein Box",
+  "commonNames": [
+   "Chicken Wrap Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-eggs-and-cheese-protein-box",
+  "displayName": "Eggs and Cheese Protein Box",
+  "commonNames": [
+   "Eggs and Cheese Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-p-band-j-protein-box",
+  "displayName": "PBandJ Protein Box",
+  "commonNames": [
+   "PBandJ Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-smoked-turkey-protein-box",
+  "displayName": "Smoked Turkey Protein Box",
+  "commonNames": [
+   "Smoked Turkey Protein Box"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-birthday-cake-pop",
+  "displayName": "Birthday Cake Pop",
+  "commonNames": [
+   "Birthday Cake Pop"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-cake-pop",
+  "displayName": "Chocolate Cake Pop",
+  "commonNames": [
+   "Chocolate Cake Pop"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chocolate-chip-cookie-dough-cake-pop",
+  "displayName": "Chocolate Chip Cookie Dough Cake Pop",
+  "commonNames": [
+   "Chocolate Chip Cookie Dough Cake Pop"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-pirate-cake-pop",
+  "displayName": "Pirate Cake Pop",
+  "commonNames": [
+   "Pirate Cake Pop"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-bacon-gouda-and-egg-breakfast-sandwich",
+  "displayName": "Bacon Gouda and Egg Breakfast Sandwich",
+  "commonNames": [
+   "Bacon Gouda and Egg Breakfast Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-certified-gluten-free-breakfast-sandwich",
+  "displayName": "Certified Gluten Free Breakfast Sandwich",
+  "commonNames": [
+   "Certified Gluten Free Breakfast Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-classic-whole-grain-oatmeal",
+  "displayName": "Classic Whole Grain Oatmeal",
+  "commonNames": [
+   "Classic Whole Grain Oatmeal"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-double-smoked-bacon-cheddar-and-egg-sandwich",
+  "displayName": "Double Smoked Bacon Cheddar and Egg Sandwich",
+  "commonNames": [
+   "Double Smoked Bacon Cheddar and Egg Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-ham-and-cheese-croissant",
+  "displayName": "Ham and Cheese Croissant",
+  "commonNames": [
+   "Ham and Cheese Croissant"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-hearty-blueberry-oatmeal",
+  "displayName": "Hearty Blueberry Oatmeal",
+  "commonNames": [
+   "Hearty Blueberry Oatmeal"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-reduced-fat-turkey-bacon-and-cage-free-egg-white-breakfast-sandwich",
+  "displayName": "Reduced Fat Turkey Bacon and Cage Free Egg White Breakfast Sandwich",
+  "commonNames": [
+   "Reduced Fat Turkey Bacon and Cage Free Egg White Breakfast Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-sausage-cheddar-and-egg-breakfast-sandwich",
+  "displayName": "Sausage Cheddar and Egg Breakfast Sandwich",
+  "commonNames": [
+   "Sausage Cheddar and Egg Breakfast Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-seared-steak-egg-and-tomatillo-wrap",
+  "displayName": "Seared Steak Egg and Tomatillo Wrap",
+  "commonNames": [
+   "Seared Steak Egg and Tomatillo Wrap"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-slow-roasted-ham-swiss-and-egg-breakfast-sandwich",
+  "displayName": "Slow Roasted Ham Swiss and Egg Breakfast Sandwich",
+  "commonNames": [
+   "Slow Roasted Ham Swiss and Egg Breakfast Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-sous-vide-egg-bites-bacon-and-gruyere",
+  "displayName": "Sous Vide Egg Bites: Bacon and Gruyere",
+  "commonNames": [
+   "Sous Vide Egg Bites: Bacon and Gruyere"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-sous-vide-egg-bites-egg-white-and-red-pepper",
+  "displayName": "Sous Vide Egg Bites: Egg White and Red Pepper",
+  "commonNames": [
+   "Sous Vide Egg Bites: Egg White and Red Pepper"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-spicy-chorizo-monterey-jack-and-egg-breakfast-sandwich",
+  "displayName": "Spicy Chorizo Monterey Jack and Egg Breakfast Sandwich",
+  "commonNames": [
+   "Spicy Chorizo Monterey Jack and Egg Breakfast Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-spinach-feta-and-cage-free-egg-white-breakfast-wrap",
+  "displayName": "Spinach Feta and Cage Free Egg White Breakfast Wrap",
+  "commonNames": [
+   "Spinach Feta and Cage Free Egg White Breakfast Wrap"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-ancho-chipotle-chicken-panini",
+  "displayName": "Ancho Chipotle Chicken Panini",
+  "commonNames": [
+   "Ancho Chipotle Chicken Panini"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chicken-and-quinoa-protein-bowl-with-black-beans-and-greens",
+  "displayName": "Chicken and Quinoa Protein Bowl with Black Beans and Greens",
+  "commonNames": [
+   "Chicken and Quinoa Protein Bowl with Black Beans and Greens"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chicken-artichoke-on-ancient-grain-flatbread",
+  "displayName": "Chicken Artichoke on Ancient Grain Flatbread",
+  "commonNames": [
+   "Chicken Artichoke on Ancient Grain Flatbread"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-chicken-blt-salad-sandwich",
+  "displayName": "Chicken BLT Salad Sandwich",
+  "commonNames": [
+   "Chicken BLT Salad Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-egg-salad-sandwich",
+  "displayName": "Egg Salad Sandwich",
+  "commonNames": [
+   "Egg Salad Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-homestyle-chicken-and-double-smoked-bacon",
+  "displayName": "Homestyle Chicken and Double Smoked Bacon",
+  "commonNames": [
+   "Homestyle Chicken and Double Smoked Bacon"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-italian-style-ham-and-spicy-salami",
+  "displayName": "Italian Style Ham and Spicy Salami",
+  "commonNames": [
+   "Italian Style Ham and Spicy Salami"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-lentils-and-vegetable-protein-bowl-with-brown-rice",
+  "displayName": "Lentils and Vegetable Protein Bowl with Brown Rice",
+  "commonNames": [
+   "Lentils and Vegetable Protein Bowl with Brown Rice"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-roasted-tomato-and-mozzarella-panini",
+  "displayName": "Roasted Tomato and Mozzarella Panini",
+  "commonNames": [
+   "Roasted Tomato and Mozzarella Panini"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-turkey-and-havarti-sandwich",
+  "displayName": "Turkey and Havarti Sandwich",
+  "commonNames": [
+   "Turkey and Havarti Sandwich"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-turkey-pesto-panini",
+  "displayName": "Turkey Pesto Panini",
+  "commonNames": [
+   "Turkey Pesto Panini"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-berry-trio-yogurt",
+  "displayName": "Berry Trio Yogurt",
+  "commonNames": [
+   "Berry Trio Yogurt"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-fresh-blueberries-and-honey-greek-yogurt-parfait",
+  "displayName": "Fresh Blueberries and Honey Greek Yogurt Parfait",
+  "commonNames": [
+   "Fresh Blueberries and Honey Greek Yogurt Parfait"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-justins-chocolate-hazelnut-butter",
+  "displayName": "Justin's Chocolate Hazelnut Butter",
+  "commonNames": [
+   "Justin's Chocolate Hazelnut Butter"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-justins-classic-almond-butter",
+  "displayName": "Justin's Classic Almond Butter",
+  "commonNames": [
+   "Justin's Classic Almond Butter"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-lemon-chiffon-yogurt",
+  "displayName": "Lemon Chiffon Yogurt",
+  "commonNames": [
+   "Lemon Chiffon Yogurt"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-organic-avocado-spread",
+  "displayName": "Organic Avocado (Spread)",
+  "commonNames": [
+   "Organic Avocado (Spread)"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ },
+ {
+  "id": "product-seasonal-fruit-blend",
+  "displayName": "Seasonal Fruit Blend",
+  "commonNames": [
+   "Seasonal Fruit Blend"
+  ],
+  "attributes": {
+   "type": "product"
+  },
+  "components": [],
+  "extras": []
+ }
+]

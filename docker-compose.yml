@@ -16,4 +16,11 @@ services:
       - '3978:3978'
     depends_on: 
       - nlu
-      # - menu
+      - menu
+  menu: 
+    image: menu
+    build: ./menu
+    env_file:
+      - .env
+    ports:
+      - '3000:3000'
