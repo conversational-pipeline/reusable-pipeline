@@ -48,17 +48,34 @@ def predict(model, pred_utterance, max_utterance_length, word2idx, tag2idx, grou
                 words.append(idx2word[w])
                 tokens.append(idx2tag[token_pred])
                 groups.append(idx2group[group_pred])
-        return words, tokens, groups
+        return reshape_prediction(words, tokens, groups)
+
+def reshape_bio(words, tags):
+    current_letter_index = 0
+    ents = []
+    for word, tag in zip(words, tags): 
+        if tag[0] == 'I' and len(ents) > 0:
+            ents[-1]['end'] += len(word) + 1
+        else:
+            ent = {'start': current_letter_index,
+                   'end': current_letter_index + len(word) + 1,
+                   'label': tag.split('-')[-1]}
+            ents.append(ent)
+        current_letter_index += len(word) + 1
+    return {'items': ents}
+
+def reshape_prediction(utterance, tokens, groups, suffix=''):
+    token_visualizer = reshape_bio(utterance, tokens)
+    group_visualizer = reshape_bio(utterance, groups)
+    return {
+        'utterance': ' '.join(utterance),
+        'tokens': token_visualizer,
+        'groups': group_visualizer
+    }
 
 @app.route('/<utterance>')
-def hello_world(utterance):
-    words, tokens, groups = predict(model, utterance, max_utterance_length, word2idx, tag2idx, groups2idx)
-    result = {
-        'utterance': utterance,
-        'words': words,
-        'tokens': tokens,
-        'groups': groups
-    }
+def predict_route(utterance):
+    result = predict(model, utterance, max_utterance_length, word2idx, tag2idx, groups2idx)
     return jsonify(result)
 
 if __name__ == "__main__":
