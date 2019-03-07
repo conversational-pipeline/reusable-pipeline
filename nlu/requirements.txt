@@ -1,6 +1,4 @@
-python-dotenv===0.9.1
-Flask===1.0.2
-requests===2.21.0
-flair===0.4.1
-torch
-torchvision
+Flask>=1.0.2
+requests>=2.21.0
+tensorflow==1.13.1
+Keras==2.2.4

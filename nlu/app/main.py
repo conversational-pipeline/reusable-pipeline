@@ -1,79 +1,102 @@
-# settings.py
+
+# kaggle competition: https://www.kaggle.com/starbucks/starbucks-menu
 import json
-import logging
 import os
-from functools import wraps
-from os import getenv
+import pickle
 
+import numpy as np
 import requests
-from dotenv import load_dotenv
-from flair.data import Sentence
-from flair.models import SequenceTagger
-from flask import Flask, Response, abort, jsonify, request
-from flask_caching import Cache
+import tensorflow as tf
+from flask import Flask, jsonify
+from keras.models import load_model
+from keras.preprocessing.sequence import pad_sequences
 
-load_dotenv()
+graph = tf.get_default_graph()
+
+max_utterance_length = 60
 app = Flask(__name__)
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-handler = logging.StreamHandler()
-formater = logging.Formatter('%(asctime)s - %(message)s')
-handler.setFormatter(formater)
-logger.addHandler(handler)
-
-TOKEN_MODEL_URL = str(getenv('TOKEN_MODEL_URL', ''))
-GROUP_MODEL_URL = str(getenv('GROUP_MODEL_URL', ''))
-
-token_model = download_and_load_models(TOKEN_MODEL_URL, 'token-model.pt')
-group_model = download_and_load_models(GROUP_MODEL_URL, 'group-model.pt')
-
-
-def download_and_load_models(url: str, file_name:str) -> SequenceTagger:
-    r = requests.get(url)
-    with open(file_name, 'wb') as f:  
+def get_pickles(pickle_file):
+    r = requests.get(os.environ['PICKLED_IDXS'])
+    with open(pickle_file, 'wb') as f:
         f.write(r.content)
-    return SequenceTagger.load_from_file(file_name)
+
+    with open(pickle_file, 'rb') as f:
+        idxs = pickle.load(f)
+    return idxs
+
+pickle_file = 'pickled_idxs'
+idxs = get_pickles(pickle_file)
+
+word2idx = idxs['word2idx']
+tag2idx = idxs['tag2idx']
+groups2idx = idxs['groups2idx']
+
+def get_model(model_name):
+    r = requests.get(os.environ['MODEL_URL'])
+    with open(model_name, 'wb') as f:
+        f.write(r.content)
+    model = load_model(model_name)
+    return model
+
+model = get_model('model.h5')
 
 
-def check_auth(auth_header_value):
-    """This function is checks the auth key.
-    """
-    return 'Bearer ' + \
-        os.getenv("MENU_SERVICE_PAYLOAD_ENDPOINT_KEY") == auth_header_value
+def transform_utterances_for_keras(utterances, max_utterance_length, word2idx):
+    X = [[(word2idx.get(word) or word2idx.get("UNKNOWN")) for word in phrase] for phrase in utterances]
+    X = pad_sequences(maxlen=max_utterance_length, sequences=X, padding="post", value=word2idx['ENDPAD'])
+    return X
 
+def predict(model, pred_utterance, max_utterance_length, word2idx, tag2idx, groups2idx):
+    with graph.as_default():
+        pred_utterances = [pred_utterance.split()]
+        X = transform_utterances_for_keras(pred_utterances, max_utterance_length, word2idx)    
+        token_test_pred, group_test_pred = model.predict(np.array([X[0]]))
+        token_test_pred = np.argmax(token_test_pred, axis=-1)
+        group_test_pred = np.argmax(group_test_pred, axis=-1)
 
-def not_authorized():
-    """Sends a 401 response that enables basic auth"""
-    return Response(
-        'Could not verify your access level for that URL.\n'
-        'You have to login with proper credentials', 401,
-        {'Authorization': 'Bearer api-key'})
+        idx2word = {idx: word for word, idx in word2idx.items()}
+        idx2tag = {idx: word for word, idx in tag2idx.items()}
+        idx2group = {idx: word for word, idx in groups2idx.items()}
+        
+        words = []
+        tokens = []
+        groups = []
+        
+        for w, token_pred, group_pred in zip(X[0], token_test_pred[0], group_test_pred[0]):
+            if 'ENDPAD' not in idx2word[w]:
+                words.append(idx2word[w])
+                tokens.append(idx2tag[token_pred])
+                groups.append(idx2group[group_pred])
+        return reshape_prediction(words, tokens, groups)
 
+def reshape_bio(words, tags):
+    current_letter_index = 0
+    ents = []
+    for word, tag in zip(words, tags): 
+        if tag[0] == 'I' and len(ents) > 0:
+            ents[-1]['end'] += len(word) + 1
+        else:
+            ent = {'start': current_letter_index,
+                   'end': current_letter_index + len(word) + 1,
+                   'label': tag.split('-')[-1]}
+            ents.append(ent)
+        current_letter_index += len(word) + 1
+    return {'items': ents}
 
-def requires_auth(f):
-    @wraps(f)
-    def decorated(*args, **kwargs):
-        auth = request.headers.get('authorization')
-        if not auth or not check_auth(auth):
-            return not_authorized()
-        return f(*args, **kwargs)
-    return decorated
+def reshape_prediction(utterance, tokens, groups, suffix=''):
+    token_visualizer = reshape_bio(utterance, tokens)
+    group_visualizer = reshape_bio(utterance, groups)
+    return {
+        'tokens': token_visualizer,
+        'groups': group_visualizer
+    }
 
-
-# @app.route('/nlu', methods=['POST'])
-# @requires_auth
-# def analyzeSentiment():
-#     if not request.json or not 'message' in request.json:
-#         abort(400)
-#     message = request.json['message']
-#     sentence = Sentence(message)
-#     classifier.predict(sentence)
-#     print('Sentence sentiment: ', sentence.labels)
-#     label = sentence.labels[0]
-#     response = {'result': label.value, 'polarity':label.score}
-#     return jsonify(response), 200
+@app.route('/<utterance>')
+def predict_route(utterance):
+    prediction = predict(model, utterance, max_utterance_length, word2idx, tag2idx, groups2idx)
+    prediction['utterance'] = utterance
+    return jsonify(prediction)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=False, port=80)
+    app.run(host='0.0.0.0', debug=False, port=8080)

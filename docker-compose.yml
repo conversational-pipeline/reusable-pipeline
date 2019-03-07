@@ -6,7 +6,7 @@ services:
     env_file:
       - .env
     ports:
-      - '80:9999'
+      - '8080:8080'
   bot:
     image: bot
     build: ./bot
@@ -15,6 +15,7 @@ services:
     ports:
       - '8000:9999'
     depends_on: 
+      - nlu
       - menu
   menu: 
     image: menu
