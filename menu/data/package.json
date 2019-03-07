@@ -1,0 +1,12 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "installConfig": {
+    "pnp": true
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
