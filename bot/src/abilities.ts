@@ -12,6 +12,9 @@ export const getDefaultOrderState = (): OrderState => {
   }
 }
 
+// intents: ADD REMOVE SUBSTITUTE None
+// note: None can have entity of END_OF_ORDER
+
 export const abilities = [
   {
     name: 'greet',

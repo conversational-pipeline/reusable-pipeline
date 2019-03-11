@@ -1,0 +1,51 @@
+import * as wolf from 'wolf-core'
+import { NlpResult, NlpEntity } from 'wolf-core'
+import { TurnContext } from 'botbuilder'
+import fetch from 'node-fetch'
+
+interface LabelItem {
+  start: number,
+  end: number,
+  label: string
+}
+
+interface NlpObject {
+  groups: { items: LabelItem[] }
+  tokens: { items: LabelItem[] },
+  utterance: string
+}
+
+const nlpAdapter = (result: NlpObject): NlpResult[] => {
+  let intents = []
+  if (result.groups && result.groups.items) {
+    intents = result.groups.items
+  }
+
+  let entities = []
+  if (result.tokens && result.tokens.items) {
+    const x = intents.map(intent => {
+      const filteredItems = result.tokens.items.filter(item => {
+        item.end <= intent.end
+      })
+
+      filteredItems.map(item => {
+        return {
+          name: item.label,
+          value: result.utterance.slice[item.start, item.end],
+          text: result.utterance.slice[item.start, item.end],
+        }
+      })
+    })
+
+  }
+}
+
+/**
+ * Call to NLU service to process utterance from user
+ * @param context Botbuilder object containing user utterance
+ */
+export const callNlu = (context: TurnContext): Promise<wolf.NlpResult[]> => {
+  return fetch(`nlu:8080/${context.activity.text}`)
+    .then((res) => res.json())
+    .then((res) => nlpAdapter(res))
+}
