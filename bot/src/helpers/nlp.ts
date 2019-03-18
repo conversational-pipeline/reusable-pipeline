@@ -16,28 +16,35 @@ interface NlpObject {
 }
 
 const nlpAdapter = (result: NlpObject): NlpResult[] => {
-  let intents = []
+  let intents: LabelItem[] = []
   if (result.groups && result.groups.items) {
     intents = result.groups.items
   }
 
-  let entities = []
   if (result.tokens && result.tokens.items) {
-    const x = intents.map(intent => {
+    const nlpResult: NlpResult[] = intents.map(intent => {
       const filteredItems = result.tokens.items.filter(item => {
+        item.start >= intent.start && 
         item.end <= intent.end
       })
 
-      filteredItems.map(item => {
+      const entities = filteredItems.map(item => {
         return {
           name: item.label,
           value: result.utterance.slice[item.start, item.end],
           text: result.utterance.slice[item.start, item.end],
         }
       })
+      return {
+        message: result.utterance,
+        intent: intent.label,
+        entities: entities
+      } 
     })
-
+    return nlpResult
   }
+
+  return []
 }
 
 /**
@@ -45,7 +52,7 @@ const nlpAdapter = (result: NlpObject): NlpResult[] => {
  * @param context Botbuilder object containing user utterance
  */
 export const callNlu = (context: TurnContext): Promise<wolf.NlpResult[]> => {
-  return fetch(`nlu:8080/${context.activity.text}`)
+  return fetch(`http://nlu:8080/${context.activity.text}`)
     .then((res) => res.json())
     .then((res) => nlpAdapter(res))
 }
