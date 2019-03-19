@@ -11,7 +11,7 @@ import { createBotbuilderStorageLayer, createWolfStorageLayer, StorageLayerType 
 // Import Wolf abilities and slots
 import { OrderState, abilities, getDefaultOrderState } from './abilities'
 import { slots } from './slots'
-import { callNlp } from './helpers/nlp'
+import { callNlu } from './helpers/nlp'
 
 // Bring in Bot Builder dependency
 import * as restify from 'restify'
@@ -53,7 +53,7 @@ server.post('/api/messages', (req, res) => {
     const wolfResult = await wolf.run(
       wolfStorageLayer(context),
       conversationStorageLayer(context, getDefaultOrderState()),
-      () => callNlp(context),
+      () => callNlu(context),
       () => flow,
       'greet'
     ).catch((err) => {

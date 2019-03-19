@@ -9,10 +9,12 @@ COPY package*.json ./
 # Install app dependencies
 RUN npm install typescript -g
 RUN npm install
-RUN npm run build
 
 # Copy sourcecodew
 COPY . .
+
+# Build post copy
+RUN npm run build
 
 EXPOSE 3978
 
