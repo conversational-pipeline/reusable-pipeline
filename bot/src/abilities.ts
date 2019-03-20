@@ -1,3 +1,9 @@
+// Import Wolf dependency
+import { Ability } from 'wolf-core'
+
+// Import Wolf's Bot Builder storage layer
+import { StorageLayerType } from 'wolf-botbuilder'
+
 interface Product {
   productName: string
 }
@@ -13,7 +19,9 @@ export const getDefaultOrderState = (): OrderState => {
 }
 
 // intents: ADD REMOVE SUBSTITUTE None
-// note: None can have entity of END_OF_ORDER
+// tokens: ADD REMOVE SUBSTITUTE SIZE FLAVOR QUANTITY END_OF_ORDER NEED_MORE_TIME None
+// entities Michael recommends looking for: ADD SUBSTITUTE SIZE FLAVOR QUANTITY TARGET ITEM
+// note: "None" can have entity of END_OF_ORDER
 
 export const abilities = [
   {
@@ -24,16 +32,21 @@ export const abilities = [
     }
   },
   {
-    name: 'addItem',
+    name: 'ADD',
     traces: [
       {
-        slotName: 'product'
+        slotName: 'ITEM'
+      },
+      {
+        slotName: 'QUANTITY'
       }
     ],
     onComplete: async (submittedData, { read, save }) => {
-      const { product: addProduct } = submittedData
+      const { ITEM: addProduct, QUANTITY: addQuantity } = submittedData
       const convoState = await read()
       const prevProducts = convoState.products || []
+
+      // Add product
       const newState = {
         products: [
           ...prevProducts,
@@ -43,24 +56,24 @@ export const abilities = [
 
       await save(newState)
 
-      return `Your ${addProduct} is added to your order!`
+      return `${addQuantity} ${addProduct} is added to your order!`
     }
   },
   {
-    name: 'removeItem',
+    name: 'REMOVE',
     traces: [
       {
-        slotName: 'product'
+        slotName: 'ITEM'
       }
     ],
     onComplete: async (submittedData, { read, save }) => {
-      const { product: removeProduct } = submittedData
+      const { ITEM: removeProduct } = submittedData
       const convoState = await read()
       const stateProducts = convoState.products || []
 
       // Check if product name exists
       if (!stateProducts.some((product: Product) => product.productName === removeProduct)) {
-        return `There is no product with name ${removeProduct} in your order.`
+        return `There is no item with name ${removeProduct} in your order.`
       }
 
       // Remove product
@@ -75,8 +88,47 @@ export const abilities = [
     }
   },
   {
-    name: 'listItems',
-    traces: [],
+    name: 'SUBSTITUTE',
+    traces: [
+      {
+        slotName: 'ITEM'
+      },
+      {
+        slotName: 'TARGET'
+      }
+    ],
+    onComplete: async (submittedData, { read, save }) => {
+      const { TARGET: removeProduct, ITEM: addProduct } = submittedData
+      const convoState = await read()
+      const stateProducts = convoState.products || []
+
+      // Check if product name exists
+      if (!stateProducts.some((product: Product) => product.productName === removeProduct)) {
+        return `There is no item with name ${removeProduct} in your order.`
+      }
+
+      // Remove product
+      const remainingProducts = stateProducts.filter((product: Product) => product.productName !== removeProduct)
+
+      // Add Product
+      const newState = {
+        products: [
+          ...remainingProducts,
+          { productName: addProduct }
+        ]
+      }
+      await save(newState)
+
+      return `The ${removeProduct} has been replaced with ${addProduct} in your order.`
+    }
+  },
+  {
+    name: 'None',
+    traces: [
+      {
+        slotName: 'END_OF_ORDER'
+      }
+    ],
     onComplete: async (submittedData, { read }) => {
       const convoState = await read()
       const products = convoState.products || []
@@ -87,4 +139,4 @@ export const abilities = [
       return products.map((products: Product) => products.productName).join(', ')
     }
   },
-] // as Ability<UserState, StorageLayerType<OrderState>>[]
+] as Ability<OrderState, StorageLayerType<OrderState>>[]
