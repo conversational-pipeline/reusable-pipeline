@@ -5,7 +5,8 @@ import { Ability } from 'wolf-core'
 import { StorageLayerType } from 'wolf-botbuilder'
 
 interface Product {
-  productName: string
+  name: string,
+  quantity: string
 }
 
 export interface OrderState {
@@ -50,7 +51,7 @@ export const abilities = [
       const newState = {
         products: [
           ...prevProducts,
-          { productName: addProduct }
+          { name: addProduct, quantity: addQuantity }
         ]
       }
 
@@ -72,12 +73,12 @@ export const abilities = [
       const stateProducts = convoState.products || []
 
       // Check if product name exists
-      if (!stateProducts.some((product: Product) => product.productName === removeProduct)) {
+      if (!stateProducts.some((product: Product) => product.name === removeProduct)) {
         return `There is no item with name ${removeProduct} in your order.`
       }
 
       // Remove product
-      const remainingProducts = stateProducts.filter((product: Product) => product.productName !== removeProduct)
+      const remainingProducts = stateProducts.filter((product: Product) => product.name !== removeProduct)
       const newState = {
         products: remainingProducts
       }
@@ -94,32 +95,35 @@ export const abilities = [
         slotName: 'ITEM'
       },
       {
+        slotName: 'QUANTITY'
+      },
+      {
         slotName: 'TARGET'
       }
     ],
     onComplete: async (submittedData, { read, save }) => {
-      const { TARGET: removeProduct, ITEM: addProduct } = submittedData
+      const { TARGET: removeProduct, ITEM: addProduct, QUANTITY: addQuantity } = submittedData
       const convoState = await read()
       const stateProducts = convoState.products || []
 
       // Check if product name exists
-      if (!stateProducts.some((product: Product) => product.productName === removeProduct)) {
+      if (!stateProducts.some((product: Product) => product.name === removeProduct)) {
         return `There is no item with name ${removeProduct} in your order.`
       }
 
       // Remove product
-      const remainingProducts = stateProducts.filter((product: Product) => product.productName !== removeProduct)
+      const remainingProducts = stateProducts.filter((product: Product) => product.name !== removeProduct)
 
       // Add Product
       const newState = {
         products: [
           ...remainingProducts,
-          { productName: addProduct }
+          { name: addProduct, quantity: addQuantity }
         ]
       }
       await save(newState)
 
-      return `The ${removeProduct} has been replaced with ${addProduct} in your order.`
+      return `The ${removeProduct} has been replaced with ${addQuantity} ${addProduct} in your order.`
     }
   },
   {
@@ -136,7 +140,7 @@ export const abilities = [
       if (products.length === 0) {
         return `You do not have any products in your order!`
       }
-      return products.map((products: Product) => products.productName).join(', ')
+      return products.map((product: Product) => `${product.quantity} ${product.name}`).join(', ')
     }
   },
 ] as Ability<OrderState, StorageLayerType<OrderState>>[]
