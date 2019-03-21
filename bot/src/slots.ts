@@ -7,6 +7,9 @@ import { StorageLayerType } from 'wolf-botbuilder'
 // Import OrderState from abilities
 import { OrderState } from './abilities'
 
+// Import number conversion library
+import { wordsToNum } from './helpers/convert'
+
 // tokens (aka slot names): ADD SUBSTITUTE SIZE FLAVOR QUANTITY TARGET ITEM END_OF_ORDER NEED_MORE_TIME None
 // entities to focus on, tokens (aka slot names): ADD SUBSTITUTE SIZE FLAVOR TARGET ITEM END_OF_ORDER
 
@@ -17,11 +20,19 @@ export const slots = [
   },
   {
     name: 'QUANTITY',
-    query: () => { return 'How many items would you like?' }
+    query: () => { return 'How many items?' },
+    retry: () => { return 'Please enter how many items.' },
+    validate: (submittedValue) => {
+      const num = wordsToNum(submittedValue);
+      if ( isNaN(num) ) {
+        return { isValid: false, reason: 'unable to parse' }
+      }
+      return { isValid: true, reason: null }
+    }
   },
   {
     name: 'TARGET',
-    query: () => { return 'What item would you like to target?' }
+    query: () => { return 'What item would you like to replace?' }
   },
   {
     name: 'END_OF_ORDER',
