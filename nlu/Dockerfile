@@ -1,6 +1,6 @@
-FROM python:3.6-slim
+FROM python:3.6
 
-RUN apt-get update && apt-get install -y unixodbc-dev gcc g++
+# RUN apt-get update && apt-get install -y unixodbc-dev gcc g++
 WORKDIR /app
 
 ENV FLAIR_TOKEN_MODEL_URL="https://convpipelinestorage.blob.core.windows.net/nlu-models/flair/v1/token-model.pt"
