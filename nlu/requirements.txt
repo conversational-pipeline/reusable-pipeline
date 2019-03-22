@@ -1,4 +1,6 @@
 Flask>=1.0.2
 requests>=2.21.0
-tensorflow==1.13.1
-Keras==2.2.4
+spacy==2.0.18
+num2words==0.5.9
+torch>=1.0.0
+flair==0.4.1
