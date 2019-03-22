@@ -24,7 +24,7 @@ export const slots = [
     retry: () => { return 'Please enter how many items.' },
     validate: (submittedValue) => {
       const num = wordsToNum(submittedValue);
-      if ( isNaN(num) ) {
+      if (isNaN(num)) {
         return { isValid: false, reason: 'unable to parse' }
       }
       return { isValid: true, reason: null }
@@ -35,7 +35,11 @@ export const slots = [
     query: () => { return 'What item would you like to replace?' }
   },
   {
-    name: 'END_OF_ORDER',
+    name: 'AFFIRMATIVE',
+    query: () => { return 'Are you done with your order?' }
+  },
+  {
+    name: 'END_OF_ORDER_TOKEN',
     query: () => { return 'Are you done with your order?' }
   },
 ] as Slot<StorageLayerType<OrderState>>[]

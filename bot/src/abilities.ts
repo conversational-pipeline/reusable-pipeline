@@ -157,10 +157,26 @@ export const abilities = [
     }
   },
   {
+    name: 'END_OF_ORDER',
+    traces: [
+      {
+        slotName: 'END_OF_ORDER_TOKEN'
+      }
+    ],
+    onComplete: async (submittedData, { read }) => {
+      const convoState = await read()
+      const products = convoState.products || []
+
+      if (products.length === 0) {
+        return `You do not have any products in your order!`
+      }
+      return products.map((product: Product) => `${product.quantity} ${product.name}`).join(', ')
+    }
+  },  {
     name: 'None',
     traces: [
       {
-        slotName: 'END_OF_ORDER'
+        slotName: 'AFFIRMATIVE'
       }
     ],
     onComplete: async (submittedData, { read }) => {
