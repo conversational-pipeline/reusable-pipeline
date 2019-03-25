@@ -3,8 +3,8 @@ FROM python:3.6
 # RUN apt-get update && apt-get install -y unixodbc-dev gcc g++
 WORKDIR /app
 
-ENV FLAIR_TOKEN_MODEL_URL="https://convpipelinestorage.blob.core.windows.net/nlu-models/flair/v1/token-model.pt"
-ENV FLAIR_GROUP_MODEL_URL="https://convpipelinestorage.blob.core.windows.net/nlu-models/flair/v1/group-model.pt"
+ENV FLAIR_TOKEN_MODEL_URL="https://convpipelinestorage.blob.core.windows.net/nlu-models/flair/v3/token-model.pt"
+ENV FLAIR_GROUP_MODEL_URL="https://convpipelinestorage.blob.core.windows.net/nlu-models/flair/v3/group-model.pt"
 RUN wget ${FLAIR_TOKEN_MODEL_URL}
 RUN wget ${FLAIR_GROUP_MODEL_URL}
 
